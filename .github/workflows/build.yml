@@ -10,7 +10,7 @@ on:
     - cron: "10 1 * * 0"
 
 env:
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: docker-centos8-ansible
 
 jobs:
   # Test the image builds and works correctly.
